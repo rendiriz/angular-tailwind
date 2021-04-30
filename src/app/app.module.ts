@@ -54,7 +54,7 @@ export function localizeLoaderFactory(
 @NgModule({
   declarations: [AppComponent, PublicPageComponent],
   imports: [
-    BrowserModule.withServerTransition({ appId: 'angular-setup' }),
+    BrowserModule.withServerTransition({ appId: 'angular-tailwind' }),
     BrowserAnimationsModule,
     RouterModule.forRoot(AppRoutingModule, {
       scrollPositionRestoration: 'top',

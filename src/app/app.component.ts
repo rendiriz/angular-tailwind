@@ -13,7 +13,7 @@ import { LocalizeRouterService } from '@gilsdav/ngx-translate-router';
   `,
 })
 export class AppComponent {
-  title = 'angular-setup';
+  title = 'angular-tailwind';
   lang!: string;
 
   constructor(
